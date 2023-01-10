@@ -1,0 +1,22 @@
+With SSH key, we can connect with guthub without giving username. We can also SSH key to sign commit.
+We can access write data in github repositories using SSH Keys.
+
+To add an SSH authentication key to your GitHub account, use the ssh-key add subcommand, specifying your public key.
+
+gh ssh-key add FILE
+gh ssh-key add ~/.ssh/id_ed212219.pub
+
+
+
+
+--Pushing our file to github
+
+git@github.com:praveenfearless08/assignment1.git
+
+echo "# assignment1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:praveenfearless08/assignment1.git
+git push -u origin main
