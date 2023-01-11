@@ -1,0 +1,21 @@
+Que -4 ->
+Static Website - It is prebuilt source code returned by server created by simple langaugae HTML, CSS and JavaScript .
+Web pages are returned by the server with no change therefore, static Websites are fast.
+There is no interaction with databases. 
+Also, they are less costly as the host does not need to support server-side processing with different languages.
+
+Dynamic Website - WebPage are return by server which are processed during runtime it means they are not prebuilt but they are build when user demand 
+during runtime by help of some scripting languages like PHP, .net, Node, ASP etc.
+So, they are slower than static websites but updates and interaction with databases are possible. 
+
+
+Que -5 ->
+
+Create a new public repository on Github.
+Now open the terminal and use command - $ git init -b main
+Add a File in your new local repository - $ git add .
+commit the file in your local repo - $ git commit -m "First commit"
+now - $ git remote add origin git@github.com:praveenfearless08/assignment2.git
+$ git remote -v
+
+Now push the changes in your local repo to github - $ git push -u origin main
